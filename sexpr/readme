@@ -1,0 +1,6 @@
+SExpr is a very simple parsing library for S-expressions.  
+Author: Florent Monnier  
+
+This version of the lib is able to parse strings between double quotes "  
+and end line comments starting with semicolon ;
+

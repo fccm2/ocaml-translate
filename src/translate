@@ -1,0 +1,5 @@
+#!/usr/bin/env ocaml
+let () =
+  let ret = Sys.command "ocaml -I ../sexpr/ SExpr.cmo translate.ml" in
+  match ret with 0 -> ()
+  | r -> Printf.eprintf "#return:%d\n%!" r
